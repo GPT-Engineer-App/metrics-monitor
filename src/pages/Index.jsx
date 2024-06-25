@@ -1,10 +1,5 @@
-function Index() {
-  console.log("I am here!")
-  return (
-    <>
-      {/* ADD YOUR CODE HERE! */}
-    </>
-  );
-}
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { LineChart, BarChart, DollarSign, TrendingUp } from "lucide-react"
 
-export default Index;
+function Index() {
+  return (
